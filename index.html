@@ -2,9 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="main.js"></script>
+    <script defer src="Opdracht-1.js"></script>
+    <script defer src="Opdracht-2.js"></script>
+    <script defer src="Opdracht-3.js"></script>
+    <script defer src="Opdracht-4.js"></script>
     <title>Tech It Easy Dashboard</title>
 </head>
 <body>
+<h1>Opdracht tech it easy !!</h1>
+
+<table>
+    <tr>
+        <th id="sold-field">Sold</th>
+        <th id="bought-field">Bought in</th>
+        <th id="not-sold-field">Not sold</th>
+    </tr>
+</table>
+    <div>
+        <ul id="list-of-brands-inventory"></ul>
+        <ul id="list-of-brands-array"></ul>
+    </div>
+
+
+<div>
+    <ul>
+        <li id="tv-info"></li>
+    </ul>
+    </div>
+
+<div>
+    <input class="button-20" type="button" value="click to see whats sold out" onclick="giveTvName(inventory);">
+    <input class="button-20" type="button" value="this tv has ambilight" onclick="giveAmbilight(inventory);">
+    <input class="button-20" type="button" value="click to sort products on price" onclick="sortOnPrice(inventory);">
+
+</div>
 
 </body>
 </html>
